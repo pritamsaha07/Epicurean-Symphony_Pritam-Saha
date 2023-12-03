@@ -1,4 +1,4 @@
-# Frontend application for a restaurant
+#Frontend application for a restaurant
 
 This is a dynamic, full-stack web application that revolutionizes the way users explore and interact with restaurant information, menus, and customer reviews while seamlessly integrating blockchain technology. Developed using React for the frontend and Express.js for the backend, the project provides a captivating user interface for discovering and engaging with restaurant details.
 
@@ -68,7 +68,7 @@ Install web3.js to integrate frontend with Blockchain
 
 * Base URL: http://localhost:3001 : The server is running locally on port 3001.
 
-* Endpoint: GET /api/restaurants: Retrieves a details of the restaurant.
+* Endpoint: GET /api/restaurants: Retrieves details of the restaurant.
 * Response Format: JSON
 
 * CORS Configuration: Cross-Origin Resource Sharing (CORS) is enabled using the cors middleware.
