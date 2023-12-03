@@ -1,4 +1,4 @@
-#Frontend application for a restaurant
+# Frontend application for a restaurant
 
 This is a dynamic, full-stack web application that revolutionizes the way users explore and interact with restaurant information, menus, and customer reviews while seamlessly integrating blockchain technology. Developed using React for the frontend and Express.js for the backend, the project provides a captivating user interface for discovering and engaging with restaurant details.
 
