@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Frontend application for a restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a dynamic, full-stack web application that revolutionizes the way users explore and interact with restaurant information, menus, and customer reviews while seamlessly integrating blockchain technology. Developed using React for the frontend and Express.js for the backend, the project provides a captivating user interface for discovering and engaging with restaurant details.
 
-## Available Scripts
+The backend, powered by Express.js, employs a RESTful API to fetch restaurant data stored in a JSON file. The server, equipped with CORS support, ensures secure and efficient communication between the frontend and backend. The restaurant data includes essential information such as name, location, ambiance, menu items, and customer reviews.
 
-In the project directory, you can run:
+This project takes a step further by integrating blockchain functionality using Ethereum. Users can connect their Ethereum wallet through Metamask, enabling secure and transparent cryptocurrency transactions. The Express.js backend facilitates this interaction by serving as a bridge between the frontend and the Ethereum blockchain.
 
-### `npm start`
+Through a combination of modern web technologies and decentralized blockchain principles, It creates an immersive and innovative dining experience. Explore restaurant offerings, connect with the Ethereum network, and contribute effortlessly to your favorite establishments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+https://drive.google.com/file/d/1-1aAo7Qe9Doo02F_TxcHQOXI6A8cEGsL/view?usp=drive_link
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Documentation
+Frontend (React)
 
-### `npm run build`
+* App.js: Main React component containing the application logic, state management, and UI structure.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* CSS File: App.css to enhance the visual presentation of the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend (Express.js)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* server.js: Express.js server setup with CORS middleware to handle API requests.
+* restaurantData.json: Sample JSON file containing restaurant details.
 
-### `npm run eject`
+Ethereum Smart Contract (Solidity)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Roxw.sol: Ethereum smart contract written in Solidity. Includes a function to handle donations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ethereum Interaction (Web3.js)
+* Web3.js Integration: The project integrates with Web3.js in the React frontend to interact with the Ethereum smart contract.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install Express.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install express
+```
 
-### Code Splitting
+Install React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npx create-react-app restaurant-app
+  cd restaurant-app
+```
 
-### Analyzing the Bundle Size
+Install axios to fetch the data from Rest Api
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+ npm install axios
 
-### Making a Progressive Web App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install web3.js to integrate frontend with Blockchain
 
-### Advanced Configuration
+```bash
+ npm install --save web3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## API Reference
 
-### `npm run build` fails to minify
+* Base URL: http://localhost:3001 : The server is running locally on port 3001.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Endpoint: GET /api/restaurants: Retrieves a list of restaurants.
+* Response Format: JSON
+
+* CORS Configuration: Cross-Origin Resource Sharing (CORS) is enabled using the cors middleware.
+
+* Middleware: express.json(): Parses incoming requests with JSON payloads.
+
+* Data Source: Restaurant data is sourced from a file named restaurantData.json.
+
+
+* Server Start Message: When the server starts, a message is logged to the console: "Server is running on port 3001."
+## Deployment
+
+
+
+
+Run the mock server and the React app concurrently
+
+```bash
+ npm install concurrently
+```
+
+Update package.json to start both the frontend and backend:
+
+```bash
+   "scripts": {
+  "start": "react-scripts start",
+  "server": "node server.js",
+  "dev": "concurrently \"npm run server\" \"npm start\""
+}
+```
+To run the server and React app together
+
+```bash
+  npm run dev
+```
+
+
+## Features
+
+* Dynamic Restaurant Information
+* Interactive Menu Presentation
+* Cryptocurrency Payment Support
+* Responsive Design
+* Google Maps Integration
+
+
+
+
+## Screenshots
+
+
+
