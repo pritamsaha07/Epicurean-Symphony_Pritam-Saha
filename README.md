@@ -22,7 +22,7 @@ Frontend (React)
 
 Backend (Express.js)
 
-* server.js: Express.js server setup with CORS middleware to handle API requests.
+* Server.js: Express.js server setup with CORS middleware to handle API requests.
 * restaurantData.json: Sample JSON file containing restaurant details.
 
 Ethereum Smart Contract (Solidity)
@@ -68,7 +68,7 @@ Install web3.js to integrate frontend with Blockchain
 
 * Base URL: http://localhost:3001 : The server is running locally on port 3001.
 
-* Endpoint: GET /api/restaurants: Retrieves a list of restaurants.
+* Endpoint: GET /api/restaurants: Retrieves a details of the restaurant.
 * Response Format: JSON
 
 * CORS Configuration: Cross-Origin Resource Sharing (CORS) is enabled using the cors middleware.
