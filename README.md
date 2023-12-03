@@ -119,5 +119,8 @@ To run the server and React app together
 
 ## Screenshots
 
-
+![Screenshot 2023-12-03 1517242](https://github.com/pritamsaha07/Epicurean-Symphony_Pritam-Saha/assets/82364650/a91c1d25-f10f-4285-bba2-4d90ae0e72aa)
+![Screenshot 2023-12-03 1518494](https://github.com/pritamsaha07/Epicurean-Symphony_Pritam-Saha/assets/82364650/e0189c91-e241-4a73-8056-bc09ea5ba5f5)
+![Screenshot 2023-12-03 1519197](https://github.com/pritamsaha07/Epicurean-Symphony_Pritam-Saha/assets/82364650/5b40511c-1a50-4915-a3fe-1d250fbdeca9)
+![Screenshot 2023-12-03 1516511](https://github.com/pritamsaha07/Epicurean-Symphony_Pritam-Saha/assets/82364650/d9050d3e-f597-4592-83eb-ad2373f43c33)
 
